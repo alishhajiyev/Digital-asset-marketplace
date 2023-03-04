@@ -6,7 +6,7 @@ export default function Buycrypto() {
     <div id="buycrypto">
       <tbody>
         <tr className="table-row">
-          <th>Name</th>
+          <th id="crypto-name">Name</th>
           <th>Last Price</th>
           <th>24h Change</th>
           <th>Market Cap</th>

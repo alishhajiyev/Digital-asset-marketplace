@@ -1,5 +1,6 @@
 #buycrypto {
     font-family: "Roboto", sans-serif;
+    padding-left: 15%;
 }
 
 .table-row {
@@ -11,6 +12,9 @@
 th,
 td {
     padding: 20px;
+}
+#crypto-name{
+    text-align: left;
 }
 
 .buy-button {
