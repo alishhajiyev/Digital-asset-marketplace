@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="navbar-menu">
         <ul>
           <li>Exchange</li>
-          <li></li>
+          <li> </li>
           <li></li>
           <li></li>
         </ul>
