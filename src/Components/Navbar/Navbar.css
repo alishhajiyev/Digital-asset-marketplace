@@ -1,8 +1,7 @@
 #navbar {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(85, 50, 133);
-
+    background-color:orange;
 
 }
 
@@ -10,24 +9,29 @@ body{
     box-sizing: border-box;
 }
 
-.navbar-logo img {
-    max-width: 170px;
+.navbar-logo {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
 }
+
 
 .navbar-menu ul {
     display: flex;
     list-style: none;
-    color: white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+
 .navbar-menu ul li {
+    color: white;
     padding: 24px;
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
+    
 }
 
 .navbar-menu ul li:hover{
-    background-color: rgb(58, 35, 92);
+    background-color: rgb(196, 129, 3);
 }
 
 .navbar-login {
@@ -35,7 +39,7 @@ body{
 }
 
 .navbar-login button {
-    background-color:rgb(85, 50, 133) ;
+    background-color:orange ;
     font-size: 20px;
     color: white;
     padding: 8px;
@@ -44,7 +48,7 @@ body{
 }
 
 .navbar-login button:hover{
-    background-color: rgb(58, 35, 92);
+    background-color: rgb(196, 129, 3);
     border-color: rgba(255, 255, 255, 0.696);
     color: rgba(255, 255, 255, 0.696);
 }
