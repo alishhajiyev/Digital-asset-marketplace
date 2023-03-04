@@ -1,5 +1,13 @@
 import React from 'react'
 import logo from './logo.png'
+import './Navbar.css'
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,14 +17,15 @@ const Navbar = () => {
       </div>
       <div className="navbar-menu">
         <ul>
-          <li>Exchange</li>
-          <li> </li>
-          <li></li>
-          <li></li>
+          <Link to={"buycrypto"}><li>Buy Crypto</li></Link>
+          <Link to={"charity"}><li>Charity</li></Link>
+          <Link to={"azercell"}><li>Azercell</li></Link>
         </ul>
       </div>
       <div className="navbar-login">
-
+        <button>
+          Login
+        </button>
       </div>
     </div>
   )
