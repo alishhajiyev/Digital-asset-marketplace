@@ -12,15 +12,14 @@ export default function () {
                 <div className='user-info'>
                  <h3 className='user-name'>UserName</h3>
                  <br></br>
-                 <div style={{ color: "orange" }}><i className="fa-brands fa-bitcoin"></i>   Bitcoin BTC <br /></div>
-        <div style={{ color: "blue" }}><i className="fa-brands fa-ethereum"></i>    Ethereum ETH <br /></div>
-        <div style={{ color: "green" }}><i className="fa-solid fa-t"></i>   Tether USDT <br /></div>
-        <div style={{ color: " rgb(251, 198, 66)" }}>  <i className="fa-solid fa-earth-americas">  </i>   Binance Coin BNB <br /></div>
-         <div className='btns'>
+                 <div ><i className="fa-brands fa-bitcoin"></i>    Bitcoin BTC <br /></div>
+        <div ><i className="fa-brands fa-ethereum"></i>     Ethereum ETH <br /></div>
+        <div ><i className="fa-solid fa-t"></i>    Tether USDT <br /></div>
+        <div >  <i className="fa-solid fa-earth-americas"></i>   B inance Coin BNB <br /></div>
+        <p className='bonus'>🎃 Bonus</p>
+        
             <button className='btn-reset'>Reset</button>
-            <p className='bonus'>Bonus</p>
-
-         </div>
+         
                 </div>
             </div>
         </div>
