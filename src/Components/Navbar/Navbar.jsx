@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-login">
         <button>
-          <i style={{fontSize:"12px"}} className="fa-solid fa-user"> USER</i>
+          <Link to={"user"}><i style={{fontSize:"12px"}} className="fa-solid fa-user"> USER</i></Link>
         </button>
       </div>
     </div>

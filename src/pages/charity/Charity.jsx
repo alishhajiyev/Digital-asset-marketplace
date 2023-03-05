@@ -5,7 +5,7 @@ import donate2 from "./donate2.png";
 import "./Charity.css";
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-// import { useState } from "react";
+
 
 export default function Charity() {
  
