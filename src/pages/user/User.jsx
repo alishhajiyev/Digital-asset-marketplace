@@ -17,18 +17,19 @@ export default function () {
         <div className='user-info'>
           <h3 className='user-name'>UserName</h3>
           <br></br>
+          <div >    Total: ${100000-count*5736}<br /></div>
           <div ><i className="fa-brands fa-bitcoin"></i>    Bitcoin BTC <br /></div>
           <div ><i className="fa-brands fa-ethereum"></i>     Ethereum ETH <br /></div>
           <div ><i className="fa-solid fa-t"></i>    Tether USDT <br /></div>
-          <div >  <i className="fa-solid fa-earth-americas"></i>   B inance Coin BNB <br /></div>
-          <p className='bonus'>🎃 Bonus</p>
+          <div >  <i className="fa-solid fa-earth-americas"></i>   Binance Coin BNB <br /></div>
+          <p className='bonus'>🎃 Bonus: {count*50}</p>
 
           <button className='btn-reset'>Reset</button>
 
         </div>
 
 
-        <h1>{count}</h1>
+        
        
       </div>
     </div>

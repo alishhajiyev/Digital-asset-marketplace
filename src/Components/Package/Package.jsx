@@ -22,7 +22,7 @@ export default function Package() {
           </div>
 
         </div>
-        <button id="package-button">20🎃</button>
+        <button id="package-button">500🎃</button>
       </div>
     </div>
   );

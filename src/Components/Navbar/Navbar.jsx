@@ -14,8 +14,9 @@ const Navbar = () => {
       <div className="navbar-menu">
         <ul>
           <Link to={"buycrypto"}><li ><i className="fa-solid fa-cart-shopping" style={{ fontSize: "12px" }}>   Buy Crypto</i></li></Link>
-          <Link to={"charity"}><li><i className="fa-solid fa-handshake-angle" style={{ fontSize: "12px" }}>  Charity</i></li></Link>
+          <Link to={"buycrypto"}><li><i className="fa-solid fa-handshake-angle" style={{ fontSize: "12px" }}>  Charity</i></li></Link>
           <Link to={"azercell"}><li><i className="fa-solid fa-tower-cell" style={{ fontSize: "12px" }}>   Azercell</i></li></Link>
+          <li><a href="https://www.azercell.com/az/about-us/contact-us.html"><i className="fa-solid fa-tower-cell" style={{ fontSize: "12px" }}>   Contacts</i></a></li>
         </ul>
       </div>
       <div className="navbar-login">
