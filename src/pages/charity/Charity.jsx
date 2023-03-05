@@ -57,10 +57,7 @@ function handleClick() {
                 eligendi minus ipsa magni laboriosam repudiandae consequatur at
                 delectus, quo aliquam, qui molestias iure explicabo ut
                 accusantium. Aliquid quaerat sed possimus libero quidem fugit
-                minima accusamus numquam nisi inventore voluptatem ex non
-                obcaecati sit laborum ullam dolore deserunt maiores nulla
-                aperiam perspiciatis officia sapiente, iusto quas! Debitis, eum
-                hic! Iste, quis voluptate! Natus corrupti perferendis explicabo.
+                minima accusamus numquam nisi inventore voluptatem ex n
               </p>
             </div>
             <div className="make-a-donation">
@@ -78,11 +75,8 @@ function handleClick() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 tenetur, voluptate dolores magnam autem sequi eaque officiis
                 minima dolore mollitia labore id quidem vitae numquam molestias
-                assumenda sapiente sit laborum et consectetur excepturi in
-                atque recusandae? Minus laborum, ut quidem dolore quo aliquam
-                animi minima incidunt aut tenetur ea fugit quae corrupti magnam
-                vero blanditiis dolorem repellendus deleniti eos pariatur
-                deserunt enim suscipit similique.
+                assumenda sapiente 
+               
               </p>
             </div>
             <div className="make-a-donation">
@@ -101,10 +95,7 @@ function handleClick() {
                 Excepturi hic maiores numquam veritatis, fuga velit eos
                 distinctio molestiae illo? Consequatur fugiat libero non! Illum
                 nostrum, vel doloremque ipsam neque minima expedita perferendis
-                id totam distinctio nulla, pariatur, aliquid aut. Ex nihil
-                suscipit voluptatibus omnis at in, repellendus quod a amet. Quo
-                expedita ipsum illo ratione dolor aliquid sint, est accusantium
-                dolorem ea quasi pariatur. Dolorum.
+                id totam distinctio nulla, pariatur, aliquid aut. 
               </p>
             </div>
             <div className="make-a-donation">
