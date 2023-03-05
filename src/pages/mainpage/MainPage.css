@@ -1,0 +1,23 @@
+.MainPage-crypto-block {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.MainPage-crypto-block div i{
+    font-size: 50px;
+}
+
+.MainPage-crypto-block div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(202, 164, 10);
+    color: white;
+    display: flex;
+    border: none;
+    width: 250px;
+    height: 180px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
