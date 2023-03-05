@@ -1,8 +1,11 @@
 #navbar {
     display: flex;
     justify-content: space-between;
-    background-color:orange;
-
+    background-color:whitesmoke;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 body{
@@ -10,7 +13,7 @@ body{
 }
 
 .navbar-logo {
-    color: white;
+    color: rgb(234, 152, 2);
     padding: 20px;
     font-size: 25px;
 }
@@ -24,14 +27,15 @@ body{
 
 
 .navbar-menu ul li {
-    color: white;
+    color: rgb(234, 152, 2);
     padding: 24px;
     font-size: 20px;
+
     
 }
 
 .navbar-menu ul li:hover{
-    background-color: rgb(196, 129, 3);
+    background-color: rgb(237, 236, 236);
 }
 
 .navbar-login {
@@ -39,19 +43,17 @@ body{
 }
 
 .navbar-login button {
-    background-color:orange ;
+    background-color:whitesmoke ;
     font-size: 20px;
-    color: white;
+    color: rgb(234, 152, 2);
     padding: 8px;
-    border: 2px solid white;
+    border: 2px solid rgb(234, 152, 2);
     border-radius: 10px;
 }
 
 .navbar-login button:hover{
-    background-color: rgb(196, 129, 3);
-    border-color: rgba(255, 255, 255, 0.696);
-    color: rgba(255, 255, 255, 0.696);
+    background-color: rgb(237, 236, 236);
+    color: rgb(234, 152, 2);
 }
-
 
 
