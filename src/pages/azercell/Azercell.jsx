@@ -6,9 +6,9 @@ export default function Azercell() {
   return (
     <div id="azercell-container">
       <div id="azercell-main-section">
-        <h1 id="h1-main-section">Aylıq internet paketləri</h1>
+        <h1 id="h1-main-section">Monthly internet packages</h1>
         <p id="p-main-section">
-          Ehtiyacların üçün ən uyğun internet paketi seç
+        Choose the most suitable internet package for your needs
         </p>
       </div>
       <div id="azercell-package-lists">
