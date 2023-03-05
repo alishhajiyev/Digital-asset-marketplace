@@ -1,0 +1,88 @@
+.container {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex-container .about {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.flex-container img {
+    width: 40%;
+    margin-right: 50px;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+
+.hero-cards {
+    margin: 40px;
+}
+
+.all-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-cards h1 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cards .about-donations {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cards .datetime {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards .btn {
+    border-radius: 10px;
+    background-color: rgb(255, 200, 20);
+    width: 38%;
+    height: 50px;
+    border-color: rgb(255, 200, 20);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .1);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    
+} 
+
+.cards .btn:hover {
+    background-color: #fff;
+    color: rgb(255, 200, 20);
+}
+.make-a-donation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* .about-donations {
+    display: none;
+}
+
+.cards .images:hover+.about-donations {
+    display: block;
+} */
