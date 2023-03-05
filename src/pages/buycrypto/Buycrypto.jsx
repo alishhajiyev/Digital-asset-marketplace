@@ -12,7 +12,7 @@ export default function Buycrypto() {
 
   return (
     <div id="buycrypto">
-      <h1>{count}</h1>
+      {/* <h1>{count}</h1> */}
       <table>
         <tbody>
         <tr className="table-row">

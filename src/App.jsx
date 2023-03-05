@@ -23,7 +23,6 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/buycrypto" element={<Buycrypto />} />
-        <Route path="/charity" element={<Charity />} />
         <Route path="/azercell" element={<Azercell />} />
         <Route path="/user" element={<User />} />
       </Routes>
