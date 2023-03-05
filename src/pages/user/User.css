@@ -1,5 +1,9 @@
 .user-container{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
     /* background-color: ; */
 }
 .container{
@@ -7,8 +11,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(167, 166, 166);
-    width: 60%;
+    width: 50%;
     height: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1);
@@ -16,5 +19,45 @@
 .pp-user{
     border-radius: 50%;
     width: 100%;
-    height: 100px;
+    height: 150px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.btn-reset {
+    border-radius: 10px;
+    background-color: rgb(253, 129, 46);
+    width: 80%;
+    height: 50px;
+    border: 2px solid rgb(253, 129, 46);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bonus{
+     color: rgb(4, 4, 4);
+      margin-left: 20px;
+     border-style: none;
+     box-shadow: none;
+     background-color: #fff;
+     margin-top: 25px;
+     font-size: 25px;
+     font-weight: 600;
+}
+.btn-reset:hover{
+    background-color: #fff;
+    color: rgb(253, 129, 46);
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
 }
