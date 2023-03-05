@@ -4,12 +4,11 @@ export default function Package() {
   return (
     <div className="packages">
       <div className="package-background">
-        <h3 className="megabytes">500MB</h3>
+        <h3 className="megabytes">10GB+WhatsApp</h3>
       </div>
       <div className="package-info">
         <div className="package-info-section">
-          <div className="package-info-section-div">
-          <i class="fa-brands fa-instagram package-icon"></i>
+          <div className="package-info-section-div">  
             <p className="package-duration">~8 saat</p>
             <p className="package-name">Sosial şəbəkələr</p>
           </div>
@@ -23,7 +22,7 @@ export default function Package() {
           </div>
 
         </div>
-      <button id="package-button">20❤️</button>
+        <button id="package-button">20🎃</button>
       </div>
     </div>
   );
