@@ -4,12 +4,39 @@ import donate from "./donate.png";
 import donate1 from "./donate1.png";
 import donate2 from "./donate2.png";
 import "./Charity.css";
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+// import { useState } from "react";
 
 export default function Charity() {
+ 
+function handleClick() {
+  const MySwal = withReactContent(Swal)
+  MySwal.fire({
+    title: 'Are you sure?',
+    text: "You won't be able to revert this!",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Yes, donate it!'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire(
+        'Donated!',
+        'Thank for your help.',
+        'success'
+      )
+    }
+  })
+}
   return (
     <div className="container">
       <div className="flex-container">
         <p className="about">
+          <i>Make somebody's life better to live better </i>
+          <br></br>
+          <br></br>
           For the audience, you’ll need to create a buzz on socials or through
           other marketing and pick a platform, such as eBay for Charity, Donate,
           or Givergy. Then you just need to find something to sell and pick the
@@ -27,71 +54,69 @@ export default function Charity() {
           <div className="cards">
             <img className="images" src={donate} alt="helpukranie"></img>
             <div className="overlay">
-            <p className="about-donations">
-              As part of the programme, CryptoCell Charity is working with
-              various non-profit organizations including Rotary Club Kyiv
-              International and Palianytsia to provide crypto-based cash
-              assistance through the Refugee Crypto Card that will allow
-              relatives or acquaintances to transfer crypto to the new cards and
-              CryptoCell wallets to support their loved ones.
-            </p></div>
+              <p className="about-donations">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                eligendi minus ipsa magni laboriosam repudiandae consequatur at
+                delectus, quo aliquam, qui molestias iure explicabo ut
+                accusantium. Aliquid quaerat sed possimus libero quidem fugit
+                minima accusamus numquam nisi inventore voluptatem ex non
+                obcaecati sit laborum ullam dolore deserunt maiores nulla
+                aperiam perspiciatis officia sapiente, iusto quas! Debitis, eum
+                hic! Iste, quis voluptate! Natus corrupti perferendis explicabo.
+              </p>
+            </div>
             <div className="make-a-donation">
               <p className="datetime">05.01.2023</p>
-              <button className="btn">Make a donation</button>
+              <div className="all-btn">
+                <button className="btn-hidden">Make a donation</button>
+                <button onClick={handleClick} className="btn-visible">10USDT</button>
+              </div>
             </div>
           </div>
           <div className="cards">
             <img className="images" src={donate1} alt="helpturkey"></img>
             <div className="overlay">
-            <p className="about-donations">
-              Identification of the users will be based on Proof of Address
-              (POA) completed before Feb 6th in 10 cities where the earthquake
-              has had significant impact, including: Kahramanmaraş, Kilis,
-              Diyarbakır, Adana, Osmaniye, Gaziantep, Şanlıurfa, Adıyaman,
-              Malatya and Hatay. While the POA method has its limitations and
-              inaccuracies, it is the best method we have available for us to
-              locate potentially impacted users. We estimate the total donations
-              will be around $5 million USD (or 94,000,000 TRY).
-            </p>
+              <p className="about-donations">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                tenetur, voluptate dolores magnam autem sequi eaque officiis
+                minima dolore mollitia labore id quidem vitae numquam molestias
+                assumenda ex sapiente sit laborum et consectetur excepturi in
+                atque recusandae? Minus laborum, ut quidem dolore quo aliquam
+                animi minima incidunt aut tenetur ea fugit quae corrupti magnam
+                vero blanditiis dolorem repellendus deleniti eos pariatur
+                deserunt enim suscipit similique.
+              </p>
             </div>
             <div className="make-a-donation">
               <p className="datetime">27.02.2023</p>
-              <button className="btn">Make a donation</button>
+              <div className="all-btn">
+                <button className="btn-hidden">Make a donation</button>
+                <button onClick={handleClick} className="btn-visible">10USDT</button>
+              </div>
             </div>
           </div>
           <div className="cards">
             <img className="images" src={donate2} alt="helpturkey"></img>
             <div className="overlay">
-            <p className="about-donations">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Cupiditate esse possimus optio dolore architecto tempora et
-              mollitia vero debitis, quaerat unde rem laborum qui. Optio
-              deserunt molestias nemo, id aut, voluptatem autem, facere eius
-              vero debitis voluptatum animi nisi vel temporibus quasi explicabo.
-              Nisi dolore unde aperiam quasi, ducimus adipisci blanditiis eius
-              dolor sequi sed dolorem veritatis iusto tempora minus!
-            </p>
+              <p className="about-donations">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi hic maiores numquam veritatis, fuga velit eos
+                distinctio molestiae illo? Consequatur fugiat libero non! Illum
+                nostrum, vel doloremque ipsam neque minima expedita perferendis
+                id totam distinctio nulla, pariatur, aliquid aut. Ex nihil
+                suscipit voluptatibus omnis at in, repellendus quod a amet. Quo
+                expedita ipsum illo ratione dolor aliquid sint, est accusantium
+                dolorem ea quasi pariatur. Dolorum.
+              </p>
             </div>
             <div className="make-a-donation">
-              <p className="datetime">27.02.2023</p>
-              <button className="btn">Make a donation</button>
+              <p className="datetime">02.03.2023</p>
+              <div className="all-btn">
+                <button className="btn-hidden">Make a donation</button>
+                <button onClick={handleClick} className="btn-visible">10USDT</button>
+              </div>
             </div>
           </div>
-          {/* <div className="cards">
-            <img className="images"  src={donate} alt="helpturkey"></img>
-            <p className="about-donations">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Laboriosam impedit placeat voluptas a esse sapiente rem maiores
-              veritatis odit, culpa animi illo pariatur quas iste ex facere enim
-              sed explicabo ullam quos cumque quae consequuntur cum. Eum ullam
-              dignissimos dicta recusandae et ratione, ex, inventore, maiores
-              voluptate officiis hic quos.
-            </p>
-            <div className="make-a-donation">
-              <p className="datetime">03.03.2023</p>
-              <button className="btn">Make a donation</button>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
