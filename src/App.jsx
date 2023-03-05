@@ -11,13 +11,22 @@ import MainPage from './pages/mainpage/MainPage';
 import Buycrypto from './pages/buycrypto/Buycrypto';
 import Charity from './pages/charity/Charity';
 import Azercell from './pages/azercell/Azercell';
+
+import { Counter } from './features/counter/Counter';
+
 import User from './pages/user/User';
 import Footer from './Components/footer/Footer';
+
 
 function App() {
   return (
     <BrowserRouter>
+
       <Navbar />
+
+    <Navbar/>
+    <Counter />
+
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/buycrypto" element={<Buycrypto />} />
