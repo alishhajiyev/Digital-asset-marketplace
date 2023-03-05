@@ -1,13 +1,19 @@
 .container {
-    margin: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background: url("./backimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 375px;
+    color: white;
 }
+
 .flex-container .about {
     width: 100%;
     font-size: 18px;
@@ -15,10 +21,11 @@
     margin-left: 50px;
     margin-right: 50px;
 }
-.about i{
-font-size: 40px;
-width: 100%;
-font-weight: 600;
+
+.about p {
+    font-size: 40px;
+    width: 100%;
+    font-weight: 600;
 }
 
 .flex-container img {
@@ -29,7 +36,7 @@ font-weight: 600;
 }
 
 .hero-cards {
-    margin: 40px;
+    margin: 100px;
 }
 
 .all-card {
@@ -38,6 +45,7 @@ font-weight: 600;
     justify-content: space-between;
     align-items: center;
     padding: auto;
+
 }
 
 .hero-cards h1 {
@@ -50,11 +58,12 @@ font-weight: 600;
     width: 30%;
     padding: 15px;
 }
-.cards:hover{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+
+.cards:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);
     border-radius: 10px;
     padding: 15px;
-    background-color: rgb(226, 223, 223);
+
 }
 
 .cards .about-donations {
@@ -72,32 +81,37 @@ font-weight: 600;
     background-color: rgb(253, 129, 46);
     width: 80%;
     height: 50px;
-    border-color: rgb(253, 129, 46);
+    border: 2px solid rgb(253, 129, 46);
     box-shadow: 20px 20px 30px rgba(0, 0, 0, .1);
     color: #fff;
     font-size: 15px;
-    font-weight: 600; 
+    font-weight: 600;
     display: block;
-} 
+}
+
 .cards .btn-hidden:hover {
     background-color: #fff;
     color: rgb(253, 129, 46);
 }
-.make-a-donation{
+
+.make-a-donation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
-.images{
+
+.images {
     border-radius: 10px;
 }
-.all-btn{
+
+.all-btn {
     position: relative;
     width: 50%;
     margin-top: 10px;
 }
-.btn-visible{
+
+.btn-visible {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -107,15 +121,16 @@ font-weight: 600;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:#fff;
+    background-color: #fff;
     color: rgb(253, 129, 46);
     border-radius: 10px;
     border-color: #fff;
     width: 80%;
     height: 50px;
     font-size: 15px;
-    font-weight: 600; 
+    font-weight: 600;
 }
-.all-btn:hover .btn-visible{
+
+.all-btn:hover .btn-visible {
     opacity: 1;
 }

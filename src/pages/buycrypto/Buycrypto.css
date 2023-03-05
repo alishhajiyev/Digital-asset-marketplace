@@ -1,19 +1,24 @@
 #buycrypto {
     font-family: "Roboto", sans-serif;
-    padding-left: 15%;
+    padding: 5% 15%;
 }
 
 .table-row {
-    /* padding-bottom: 20px; */
-    background-color: aliceblue;
+    background-color: whitesmoke;
     font-size: 20px;
 }
 
-th,
-td {
-    padding: 20px;
+th {
+    padding: 20px 30px;
+    font-size: 16px;
 }
-#crypto-name{
+
+td {
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+#crypto-name {
     text-align: left;
 }
 
@@ -21,6 +26,7 @@ td {
     background-color: rgb(13, 184, 13);
     border-radius: 5px;
     margin-right: 5px;
+
 }
 
 .sell-button {
@@ -31,7 +37,7 @@ td {
 .sell-button {
     border-radius: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     outline: none;
     cursor: pointer;
     border: none;

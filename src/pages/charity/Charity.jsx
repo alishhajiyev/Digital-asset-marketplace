@@ -1,12 +1,11 @@
 import React from "react";
-import charityphoto from "./charityphoto.png";
 import donate from "./donate.png";
 import donate1 from "./donate1.png";
 import donate2 from "./donate2.png";
 import "./Charity.css";
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-// import { useState } from "react";
+
 
 export default function Charity() {
  
@@ -34,7 +33,7 @@ function handleClick() {
     <div className="container">
       <div className="flex-container">
         <p className="about">
-          <i>Make somebody's life better to live better </i>
+          <p>MAKE SOMEBODY'S LIFE BETTER TO LIVE BETTER </p >
           <br></br>
           <br></br>
           For the audience, you’ll need to create a buzz on socials or through
@@ -46,7 +45,6 @@ function handleClick() {
           themselves. Choose instead experience days, funny items, and
           sentimental items.
         </p>
-        <img src={charityphoto} alt="Donation photo"></img>
       </div>
       <div className="hero-cards">
         <h1>Donations</h1>
@@ -80,7 +78,7 @@ function handleClick() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 tenetur, voluptate dolores magnam autem sequi eaque officiis
                 minima dolore mollitia labore id quidem vitae numquam molestias
-                assumenda ex sapiente sit laborum et consectetur excepturi in
+                assumenda sapiente sit laborum et consectetur excepturi in
                 atque recusandae? Minus laborum, ut quidem dolore quo aliquam
                 animi minima incidunt aut tenetur ea fugit quae corrupti magnam
                 vero blanditiis dolorem repellendus deleniti eos pariatur

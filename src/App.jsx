@@ -11,7 +11,11 @@ import MainPage from './pages/mainpage/MainPage';
 import Buycrypto from './pages/buycrypto/Buycrypto';
 import Charity from './pages/charity/Charity';
 import Azercell from './pages/azercell/Azercell';
+
 import { Counter } from './features/counter/Counter';
+
+import User from './pages/user/User';
+
 
 function App() {
   return (
@@ -23,6 +27,8 @@ function App() {
         <Route path="/buycrypto" element={<Buycrypto />} />
         <Route path="/charity" element={<Charity />} />
         <Route path="/azercell" element={<Azercell />} />
+        <Route path="/user" element={<User />} />
+
       </Routes>
     </BrowserRouter>
   );
