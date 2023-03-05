@@ -17,7 +17,7 @@
 
 }
 .upside{
-    padding: 100px 0;
+    padding: 100px 0 ;
 }
 
 .MainPage-start{
@@ -39,7 +39,7 @@
 
 #MainPage h1{
     width: 70%;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
